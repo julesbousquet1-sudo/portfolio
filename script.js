@@ -2,7 +2,12 @@ const data={articles:[
 {cat:"Rugby",title:"Mes articles sur Rugbyrama",desc:"Retrouvez mes articles, analyses et sujets consacrés au rugby.",media:"Rugbyrama",date:"Articles",url:"https://www.rugbyrama.fr/recherche?q=jules%20bousquet"},
 {cat:"NBA",title:"Mes articles sur TrashTalk",desc:"Mes articles, analyses et contenus consacrés à la NBA.",media:"TrashTalk",date:"Articles",url:"https://trashtalk.co/author/julesbousquet/"},
 {cat:"NBA",title:"Mes articles sur The Daily Dunk",desc:"Mes articles et analyses autour de l'actualité NBA.",media:"The Daily Dunk",date:"Articles",url:"https://nba.thedailydunk.co/author/julesbousquet/"}
-],radio:[{cat:"Interview",title:"Nom de ton émission ou de ton son",desc:"Interview, chronique ou reportage sonore.",media:"Radio",date:"2026",url:"#"}],video:[{cat:"Reportage",title:"Ton reportage vidéo",desc:"Présente ici le sujet et ton rôle.",media:"Vidéo",date:"2026",url:"#"}]};
+],
+enquetes:[
+{cat:"Enquête",title:"Enquête BOUSQUET-THOMAS",desc:"Une enquête à découvrir dans son intégralité.",media:"Enquête",date:"PDF",url:"Enquête BOUSQUET-THOMAS.pdf"},
+{cat:"Reportage",title:"BD Reportage — Rugby féminin",desc:"Un reportage en bande dessinée consacré au rugby féminin, réalisé avec Pearl et Jules.",media:"BD Reportage",date:"PDF",url:"BD Reportage Rugby Feminin Pearl et Jules.docx (2).pdf"}
+],
+radio:[{cat:"Interview",title:"Nom de ton émission ou de ton son",desc:"Interview, chronique ou reportage sonore.",media:"Radio",date:"2026",url:"#"}],video:[{cat:"Reportage",title:"Ton reportage vidéo",desc:"Présente ici le sujet et ton rôle.",media:"Vidéo",date:"2026",url:"#"}]};
 function cards(a,id){const el=document.getElementById(id);if(!el)return;el.innerHTML=a.map((x,i)=>'<article class="card" role="link" tabindex="0" data-url="'+x.url+'"><img class="card-logo" src="'+(x.logo||"")+'" alt="'+x.media+'" loading="lazy" onerror="this.style.display=\'none\'"><div><small>'+String(i+1).padStart(2,'0')+' — '+x.cat+'</small><h3><a href="'+x.url+'" target="_blank" rel="noopener noreferrer">'+x.title+' ↗</a></h3><p>'+x.desc+'</p></div></article>').join('');el.querySelectorAll('.card').forEach(c=>{c.addEventListener('click',e=>{if(!e.target.closest('a'))window.open(c.dataset.url,'_blank','noopener,noreferrer')});c.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();window.open(c.dataset.url,'_blank','noopener,noreferrer')}})})}
-cards(data.articles,'articles-grid');cards(data.radio,'radio-grid');cards(data.video,'video-grid');
+cards(data.articles,'articles-grid');cards(data.enquetes,'enquetes-grid');cards(data.radio,'radio-grid');cards(data.video,'video-grid');
 const menu=document.getElementById('menu');const nav=document.querySelector('.site-nav');if(menu&&nav){menu.addEventListener('click',()=>nav.classList.toggle('open'));nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));}
