@@ -140,3 +140,7 @@
 @media(max-width:800px){
   .cv-documents{width:100%!important;margin-left:0!important;grid-template-columns:1fr!important}
 }
+
+
+/* CV et autoportrait : même largeur que le bandeau « Qui suis-je ? » */
+.cv-documents{width:100%!important;max-width:1100px!important;margin-left:auto!important;margin-right:auto!important;box-sizing:border-box!important}
