@@ -85,3 +85,8 @@
 
 /* CV réel dans la partie Contact */
 .cv-viewer{padding:0!important;min-height:650px!important;background:#fff!important;position:relative}.cv-viewer-link{width:100%;height:100%;min-height:650px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink);text-decoration:none;transition:.3s ease}.cv-viewer-link span{font-family:"Playfair Display",serif;font-size:clamp(42px,5vw,64px);font-style:italic}.cv-viewer-link small{margin-top:12px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.cv-viewer-link:hover{background:#111;color:#fff}.cv-viewer-link:hover small{color:#bbb}@media(max-width:800px){.cv-viewer,.cv-viewer-link{min-height:500px!important}}
+
+/* Photo de fond du bloc CV */
+.cv-viewer{background-image:linear-gradient(rgba(255,255,255,.70),rgba(255,255,255,.70)),url("Capture%20d%27%C3%A9cran%202026-09-30%20153949.png")!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important}
+.cv-viewer-link{background:rgba(255,255,255,.16)!important;backdrop-filter:blur(1px)}
+.cv-viewer-link:hover{background:rgba(17,17,17,.58)!important}
