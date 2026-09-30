@@ -82,3 +82,6 @@
 .enquetes-block .card:nth-child(1):hover::after{background:linear-gradient(90deg,rgba(17,17,17,.72),rgba(17,17,17,.48) 48%,rgba(17,17,17,.22))!important}
 .enquetes-block .card:nth-child(2):hover{background:rgba(255,255,255,.68)!important}
 .enquetes-block .card:nth-child(2):hover::after{background:linear-gradient(90deg,rgba(255,255,255,.72),rgba(255,255,255,.48) 48%,rgba(255,255,255,.22))!important}
+
+/* CV réel dans la partie Contact */
+.cv-viewer{padding:0!important;min-height:650px!important;background:#fff!important;position:relative}.cv-viewer-link{width:100%;height:100%;min-height:650px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink);text-decoration:none;transition:.3s ease}.cv-viewer-link span{font-family:"Playfair Display",serif;font-size:clamp(42px,5vw,64px);font-style:italic}.cv-viewer-link small{margin-top:12px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.cv-viewer-link:hover{background:#111;color:#fff}.cv-viewer-link:hover small{color:#bbb}@media(max-width:800px){.cv-viewer,.cv-viewer-link{min-height:500px!important}}
