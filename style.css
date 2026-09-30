@@ -71,3 +71,14 @@
 .enquetes-block .card:nth-child(1):hover{background:rgba(17,17,17,.88)!important;color:#fff!important;border-color:#111!important}.enquetes-block .card:nth-child(1):hover::after{background:linear-gradient(90deg,rgba(17,17,17,.90),rgba(17,17,17,.68) 48%,rgba(17,17,17,.38))!important}.enquetes-block .card:nth-child(1):hover h3,.enquetes-block .card:nth-child(1):hover p,.enquetes-block .card:nth-child(1):hover small,.enquetes-block .card:nth-child(1):hover h3 a{color:#fff!important}
 .enquetes-block .card:nth-child(2):hover{background:rgba(255,255,255,.82)!important;color:#111!important;border-color:var(--line)!important}.enquetes-block .card:nth-child(2):hover::after{background:linear-gradient(90deg,rgba(255,255,255,.90),rgba(255,255,255,.68) 48%,rgba(255,255,255,.38))!important}.enquetes-block .card:nth-child(2):hover h3,.enquetes-block .card:nth-child(2):hover p,.enquetes-block .card:nth-child(2):hover small,.enquetes-block .card:nth-child(2):hover h3 a{color:#111!important}
 @media(max-width:800px){.enquetes-head p{font-size:16px!important}}
+
+/* Dernier réglage : transparence et phrase en italique */
+.enquetes-head p{font-style:italic!important}
+.enquetes-block .card{background:rgba(255,255,255,.58)!important}
+.enquetes-block .card::after{background:linear-gradient(90deg,rgba(255,255,255,.64),rgba(255,255,255,.42) 48%,rgba(255,255,255,.18))!important}
+.enquetes-block .card:nth-child(2){background:rgba(17,17,17,.58)!important}
+.enquetes-block .card:nth-child(2)::after{background:linear-gradient(90deg,rgba(17,17,17,.64),rgba(17,17,17,.42) 48%,rgba(17,17,17,.18))!important}
+.enquetes-block .card:nth-child(1):hover{background:rgba(17,17,17,.68)!important}
+.enquetes-block .card:nth-child(1):hover::after{background:linear-gradient(90deg,rgba(17,17,17,.72),rgba(17,17,17,.48) 48%,rgba(17,17,17,.22))!important}
+.enquetes-block .card:nth-child(2):hover{background:rgba(255,255,255,.68)!important}
+.enquetes-block .card:nth-child(2):hover::after{background:linear-gradient(90deg,rgba(255,255,255,.72),rgba(255,255,255,.48) 48%,rgba(255,255,255,.22))!important}
