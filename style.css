@@ -161,3 +161,12 @@
 #blog-grid .blog-bctm-text .blog-visit-link{display:inline-block;margin-top:8px;background:#111;color:#fff;text-decoration:none;padding:13px 20px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;transition:.25s ease}
 #blog-grid .blog-bctm-text .blog-visit-link:hover{background:#444;color:#fff}
 @media(max-width:800px){.blog-page-head{height:280px;margin-bottom:38px}.blog-page-head h2{font-size:58px}#blog-grid{max-width:100%}#blog-grid .blog-bctm-text{padding:0 2px}#blog-grid .blog-bctm-text h3{font-size:34px}}
+
+/* Survol du texte de présentation du blog */
+#blog-grid .blog-bctm-text{transition:color .3s ease}
+#blog-grid .blog-bctm-text:hover,
+#blog-grid .blog-bctm-text:hover h3,
+#blog-grid .blog-bctm-text:hover p,
+#blog-grid .blog-bctm-text:hover strong,
+#blog-grid .blog-bctm-text:hover a:not(.blog-visit-link){color:#fff}
+#blog-grid .blog-bctm-text:hover .blog-visit-link{background:#fff;color:#111}
