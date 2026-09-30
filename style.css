@@ -163,3 +163,11 @@
 
 /* Ajustement final : largeur des blocs alignée sur le bandeau sans débordement */
 .contact-intro .cv-documents{width:100%!important;max-width:none!important;margin-left:0!important;margin-right:0!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:2cm!important}
+
+/* Mobile uniquement : CV et autoportrait empilés verticalement */
+@media(max-width:800px){
+  .contact-intro .cv-documents{
+    grid-template-columns:1fr!important;
+    gap:20px!important;
+  }
+}
