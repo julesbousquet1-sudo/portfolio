@@ -101,3 +101,9 @@
 /* Les blocs Articles restent sans barre ni ligne d’informations en bas */
 #articles-grid .card .meta{display:none!important}
 #articles-grid .card{border-bottom:1px solid var(--line)}
+
+
+/* Nettoyage logos médias */
+#articles-grid .card-logo{display:none!important}
+/* Photo rugby fiable pour le bloc Rugbyrama */
+#articles-grid .card:nth-child(1)::before{background-image:url("https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=1400&q=85")!important}
