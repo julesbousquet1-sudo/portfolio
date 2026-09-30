@@ -35,3 +35,12 @@
 .contact-intro p{color:#fff;text-shadow:0 1px 7px #0008;text-align:justify;max-width:850px;margin-left:auto;margin-right:auto}
 .contact-intro strong{color:#fff}
 @media(max-width:800px){.contact-intro{padding:48px 7vw 40px}.contact-intro h3{font-size:54px}}
+
+/* Photo uniquement derrière le titre Qui suis-je */
+.contact-intro{position:relative;padding:0;overflow:visible;isolation:auto}
+.contact-intro::before,.contact-intro::after{display:none}
+.contact-intro h3{position:relative;display:flex;align-items:center;justify-content:center;min-height:280px;margin:0 0 42px;padding:40px 7vw;color:#fff;text-shadow:0 2px 12px #0008;overflow:hidden;isolation:isolate}
+.contact-intro h3::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(17,17,17,.50),rgba(17,17,17,.50)),url("https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=2000&q=85");background-size:cover;background-position:center;z-index:-1}
+.contact-intro p{color:var(--ink);text-shadow:none}
+.contact-intro strong{color:var(--ink)}
+@media(max-width:800px){.contact-intro h3{min-height:220px;padding:35px 7vw;font-size:54px}}
