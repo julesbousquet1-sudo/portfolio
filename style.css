@@ -123,3 +123,13 @@
 
 /* CV : nouveau fond */
 .cv-viewer{background-image:linear-gradient(rgba(255,255,255,.16),rgba(255,255,255,.16)),url("screen%20cv.png")!important}
+
+
+/* CV + autoportrait : affichage côte à côte */
+.cv-documents{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.cv-documents .cv-viewer{min-height:650px!important}
+.autoportrait-viewer{background-image:linear-gradient(rgba(255,255,255,.16),rgba(255,255,255,.16)),url("Capture%20d'%C3%A9cran%202026-09-30%20161330.png")!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important}
+@media(max-width:800px){
+  .cv-documents{grid-template-columns:1fr}
+  .cv-documents .cv-viewer{min-height:500px!important}
+}
