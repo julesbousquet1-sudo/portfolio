@@ -9,3 +9,7 @@
 .hero-photo{background-image:url("photo%20pro.jpg")!important;background-blend-mode:normal;filter:none!important}
 .hero-photo:after{background:rgba(0,0,0,.12)!important;filter:none!important}
 .contact-intro h3::before{background-image:linear-gradient(rgba(17,17,17,.22),rgba(17,17,17,.22)),url("photo%20pro.jpg")!important;filter:none!important}
+
+/* Accueil : réduire légèrement le bandeau pour garder "Mes travaux" visible à l’arrivée */
+.hero-photo{height:clamp(370px,54vw,650px)!important}
+@media(max-width:800px){.hero-photo{height:clamp(350px,92vw,500px)!important}}
