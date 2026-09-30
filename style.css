@@ -152,7 +152,7 @@
 .blog-page-head h2{font-size:clamp(58px,8vw,100px);text-shadow:0 2px 15px #0005}
 .blog-page-head p{max-width:650px;text-shadow:0 1px 8px #0006}
 #blog-grid{max-width:850px;margin:0 auto;display:block}
-#blog-grid .blog-bctm-text{width:100%;text-align:left;padding:0 10px}
+#blog-grid .blog-bctm-text{width:100%;text-align:justify;padding:0 10px}
 #blog-grid .blog-bctm-text small{color:var(--red);font-weight:700;letter-spacing:.12em;font-size:11px}
 #blog-grid .blog-bctm-text h3{font-family:'Playfair Display',serif;font-size:clamp(32px,4vw,52px);line-height:1.02;margin:16px 0 28px;max-width:800px}
 #blog-grid .blog-bctm-text p{font-size:15px;line-height:1.8;color:#555;margin:0 0 20px;max-width:800px}
