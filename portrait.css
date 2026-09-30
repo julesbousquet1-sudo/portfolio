@@ -16,3 +16,6 @@
 
 /* Nouveau visuel de la page Mon blog */
 .blog-page-head{--portrait-data:url("Design%20sem%20nome%20-%202026-09-30T160335.963.jpg")!important}
+
+/* Mon blog : forcer le nouveau fichier comme image de fond */
+.blog-page-head::before{background-image:linear-gradient(rgba(0,0,0,.38),rgba(0,0,0,.38)),url("Design%20sem%20nome%20-%202026-09-30T160335.963.jpg")!important}
