@@ -90,3 +90,8 @@
 .cv-viewer{background-image:linear-gradient(rgba(255,255,255,.70),rgba(255,255,255,.70)),url("Capture%20d%27%C3%A9cran%202026-09-30%20153949.png")!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important}
 .cv-viewer-link{background:rgba(255,255,255,.16)!important;backdrop-filter:blur(1px)}
 .cv-viewer-link:hover{background:rgba(17,17,17,.58)!important}
+
+/* CV : fond plus visible */
+.cv-viewer{background-image:linear-gradient(rgba(255,255,255,.42),rgba(255,255,255,.42)),url("Capture%20d%27%C3%A9cran%202026-09-30%20153949.png")!important}
+.cv-viewer-link{background:rgba(255,255,255,.08)!important}
+.cv-viewer-link:hover{background:rgba(17,17,17,.42)!important}
