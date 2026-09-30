@@ -114,3 +114,9 @@
 .cv-viewer-link small{text-shadow:0 1px 5px rgba(255,255,255,.9),0 1px 2px rgba(0,0,0,.35)!important}
 .cv-viewer-link:hover span{text-shadow:0 2px 8px rgba(0,0,0,.85)!important}
 .cv-viewer-link:hover small{text-shadow:0 1px 5px rgba(0,0,0,.85)!important}
+
+/* CV : ombre nettement renforcée */
+.cv-viewer-link span{ text-shadow:0 3px 10px rgba(255,255,255,1),0 4px 12px rgba(0,0,0,.65)!important }
+.cv-viewer-link small{ text-shadow:0 2px 7px rgba(255,255,255,1),0 3px 8px rgba(0,0,0,.65)!important }
+.cv-viewer-link:hover span{ text-shadow:0 4px 12px rgba(0,0,0,1)!important }
+.cv-viewer-link:hover small{ text-shadow:0 3px 9px rgba(0,0,0,1)!important }
