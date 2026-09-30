@@ -4,3 +4,8 @@
 .journaliste-title{font-size:clamp(54px,10vw,135px);max-width:95vw;text-shadow:0 3px 18px rgba(0,0,0,.55)}
 @media(max-width:800px){.hero-photo{height:clamp(390px,110vw,560px);background-position:center top}.journaliste-title{font-size:clamp(48px,15vw,78px);white-space:nowrap;letter-spacing:-.06em}}
 .contact-intro h3::before{background-image:linear-gradient(rgba(17,17,17,.38),rgba(17,17,17,.38)),var(--portrait-data);background-size:cover;background-position:center 18%}
+
+/* Photo professionnelle nette — fichier réel du dépôt */
+.hero-photo{background-image:url("photo%20pro.jpg")!important;background-blend-mode:normal;filter:none!important}
+.hero-photo:after{background:rgba(0,0,0,.12)!important;filter:none!important}
+.contact-intro h3::before{background-image:linear-gradient(rgba(17,17,17,.22),rgba(17,17,17,.22)),url("photo%20pro.jpg")!important;filter:none!important}
