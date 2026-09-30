@@ -100,3 +100,7 @@
 .cv-viewer{background-image:linear-gradient(rgba(255,255,255,.16),rgba(255,255,255,.16)),url("Capture%20d%27%C3%A9cran%202026-09-30%20153949.png")!important}
 .cv-viewer-link{background:rgba(255,255,255,.02)!important}
 .cv-viewer-link:hover{background:rgba(17,17,17,.35)!important}
+
+/* CV : sous-texte plus lisible */
+.cv-viewer-link small{font-weight:700!important;color:#111!important;text-shadow:0 1px 2px rgba(255,255,255,.7)}
+.cv-viewer-link:hover small{color:#fff!important;text-shadow:0 1px 2px rgba(0,0,0,.7)}
