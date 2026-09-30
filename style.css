@@ -167,3 +167,5 @@
 /* Titre Qui suis-je — centré et plus imposant */
 .contact-intro{max-width:850px;margin:0 auto;text-align:left}
 .contact-intro h3{font-family:'Playfair Display',serif;font-size:clamp(54px,7vw,88px);line-height:.95;letter-spacing:-.04em;text-align:center;margin:0 0 42px}
+
+.contact-intro p{text-align:justify}
