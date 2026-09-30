@@ -1,4 +1,4 @@
-:root{--portrait-data:url("data:image/jpeg;base64,PLACEHOLDER")}
+:root{--portrait-data:url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQX/9k=")}
 .hero-photo{width:100vw;max-width:none;margin-left:calc(50% - 50vw);height:clamp(420px,62vw,760px);background-image:linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)),var(--portrait-data);background-size:cover;background-position:center 22%;}
 .hero-photo:after{background:linear-gradient(to bottom,rgba(0,0,0,.08),rgba(0,0,0,.38))}
 .journaliste-title{font-size:clamp(54px,10vw,135px);max-width:95vw;text-shadow:0 3px 18px rgba(0,0,0,.55)}
