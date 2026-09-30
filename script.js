@@ -4,7 +4,7 @@ const data={articles:[
 {cat:"NBA",title:"Mes articles sur The Daily Dunk",desc:"Mes articles et analyses autour de l'actualité NBA.",media:"The Daily Dunk",date:"Articles",url:"https://nba.thedailydunk.co/author/julesbousquet/"}
 ],
 enquetes:[
-{cat:"Enquête",title:"IME dépassés : quand l’urgence devient la norme",desc:"Une enquête sur un système médico-social saturé",media:"Enquête",date:"PDF",url:"Enquête BOUSQUET-THOMAS.pdf"},
+{cat:"Enquête",title:"IME dépassés : quand l’urgence devient la norme",desc:"Une enquête sur un système médico-social saturé",media:"Enquête",date:"PDF",url:"Enquete IME.pdf"},
 {cat:"Reportage",title:"La professionnalisation du rugby féminin : un combat encore inachevé",desc:"Un reportage sur des sportives de haut niveau dans un environnement en manque de moyens",media:"BD Reportage",date:"PDF",url:"BD Reportage Rugby Feminin Pearl et Jules.docx (2).pdf"}
 ],
 radio:[{cat:"Interview",title:"Nom de ton émission ou de ton son",desc:"Interview, chronique ou reportage sonore.",media:"Radio",date:"2026",url:"#"}],video:[{cat:"Reportage",title:"Ton reportage vidéo",desc:"Présente ici le sujet et ton rôle.",media:"Vidéo",date:"2026",url:"#"}]};
