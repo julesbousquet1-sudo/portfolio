@@ -96,3 +96,8 @@
 #articles-grid .card:nth-child(1)::before{background-image:url("https://www.keithprowse.co.uk/-/media/blog/rugby/2022/21-years-of-the-guinness-six-nations/rugby-ball-at-twickenham-stadium.jpg?h=400&hash=B04FDC2B70DC3DC0CDA620ADE885564C&w=600")}
 #articles-grid .card:nth-child(3)::before{background-image:url("https://cdn.nba.com/teams/legacy/www.nba.com/magic/sites/magic/files/legacy/photos/amway7_700_092310.jpg")}
 @media(max-width:800px){#articles-grid .card-logo{width:70px;height:36px;top:16px;right:16px}}
+
+
+/* Les blocs Articles restent sans barre ni ligne d’informations en bas */
+#articles-grid .card .meta{display:none!important}
+#articles-grid .card{border-bottom:1px solid var(--line)}
