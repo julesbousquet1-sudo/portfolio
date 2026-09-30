@@ -153,3 +153,9 @@
 /* CV + autoportrait : même largeur que le bandeau, avec 2 cm entre les blocs */
 .cv-documents{width:100%!important;max-width:1100px!important;margin-left:auto!important;margin-right:auto!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:2cm!important}
 @media(max-width:800px){.cv-documents{width:100%!important;grid-template-columns:1fr!important;gap:20px!important}}
+
+
+/* Largeur exacte du bandeau Qui suis-je ? : les deux blocs vont d'un bord à l'autre du bandeau */
+.contact-intro .cv-documents{width:calc(100% + 14vw)!important;max-width:none!important;margin-left:-7vw!important;margin-right:-7vw!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:2cm!important}
+.contact-intro .cv-documents .cv-viewer{width:100%!important;min-width:0!important}
+@media(max-width:800px){.contact-intro .cv-documents{width:100%!important;margin-left:0!important;margin-right:0!important;grid-template-columns:1fr!important;gap:20px!important}}
