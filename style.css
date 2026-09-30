@@ -120,3 +120,6 @@
 .cv-viewer-link small{ text-shadow:0 2px 7px rgba(255,255,255,1),0 3px 8px rgba(0,0,0,.65)!important }
 .cv-viewer-link:hover span{ text-shadow:0 4px 12px rgba(0,0,0,1)!important }
 .cv-viewer-link:hover small{ text-shadow:0 3px 9px rgba(0,0,0,1)!important }
+
+/* CV : nouveau fond */
+.cv-viewer{background-image:linear-gradient(rgba(255,255,255,.16),rgba(255,255,255,.16)),url("screen%20cv.png")!important}
