@@ -88,3 +88,11 @@
 #articles-grid .card:nth-child(3):hover::after{background:linear-gradient(90deg,rgba(25,65,120,.94),rgba(25,65,120,.62))}
 #articles-grid .card:hover{color:#fff}
 @media(max-width:800px){#articles-grid .card{width:90%;min-height:155px;padding:22px}.articles-page-head{margin-bottom:30px}}
+
+
+/* Logos des médias dans les blocs Articles */
+#articles-grid .card-logo{position:absolute;top:20px;right:22px;width:82px;height:42px;object-fit:contain;object-position:right center;background:rgba(244,241,235,.88);padding:5px 7px;border:1px solid rgba(17,17,17,.12);z-index:2;transition:transform .3s ease,background .3s ease}
+#articles-grid .card:hover .card-logo{transform:scale(1.06);background:rgba(255,255,255,.92)}
+#articles-grid .card:nth-child(1)::before{background-image:url("https://www.keithprowse.co.uk/-/media/blog/rugby/2022/21-years-of-the-guinness-six-nations/rugby-ball-at-twickenham-stadium.jpg?h=400&hash=B04FDC2B70DC3DC0CDA620ADE885564C&w=600")}
+#articles-grid .card:nth-child(3)::before{background-image:url("https://cdn.nba.com/teams/legacy/www.nba.com/magic/sites/magic/files/legacy/photos/amway7_700_092310.jpg")}
+@media(max-width:800px){#articles-grid .card-logo{width:70px;height:36px;top:16px;right:16px}}
