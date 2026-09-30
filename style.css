@@ -164,3 +164,6 @@
 
 /* Le texte de présentation reste dans ses couleurs normales au survol */\n#blog-grid .blog-bctm-text .blog-visit-link:hover{color:#fff!important}
 @media(max-width:800px){#blog-grid .blog-bctm-text .blog-visit-link{width:90%;min-height:145px;padding:22px}}
+/* Titre Qui suis-je — centré et plus imposant */
+.contact-intro{max-width:850px;margin:0 auto;text-align:left}
+.contact-intro h3{font-family:'Playfair Display',serif;font-size:clamp(54px,7vw,88px);line-height:.95;letter-spacing:-.04em;text-align:center;margin:0 0 42px}
