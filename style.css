@@ -186,3 +186,21 @@
     margin-bottom:0!important;
   }
 }
+
+/* Mobile élargi : empiler CV et autoportrait sous 900px */
+@media screen and (max-width:900px){
+  .contact-intro .cv-documents{
+    display:flex!important;
+    flex-direction:column!important;
+    width:100%!important;
+    max-width:100%!important;
+    gap:20px!important;
+  }
+  .contact-intro .cv-documents .cv-viewer{
+    display:flex!important;
+    width:100%!important;
+    max-width:100%!important;
+    margin:0!important;
+    flex:0 0 auto!important;
+  }
+}
