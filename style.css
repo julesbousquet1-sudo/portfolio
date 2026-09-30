@@ -148,3 +148,8 @@
 
 /* Réduire l'espace entre les deux blocs CV et autoportrait */
 .cv-documents{gap:10px!important}
+
+
+/* CV + autoportrait : même largeur que le bandeau, avec 2 cm entre les blocs */
+.cv-documents{width:100%!important;max-width:1100px!important;margin-left:auto!important;margin-right:auto!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:2cm!important}
+@media(max-width:800px){.cv-documents{width:100%!important;grid-template-columns:1fr!important;gap:20px!important}}
