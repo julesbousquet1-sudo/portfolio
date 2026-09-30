@@ -134,3 +134,14 @@
 #radio-grid .card p,#video-grid .card p,#blog-grid .card p,#contact-grid .card p,#radio-grid .card small,#video-grid .card small,#blog-grid .card small,#contact-grid .card small{position:relative;z-index:1}
 #radio-grid .card small,#video-grid .card small,#blog-grid .card small,#contact-grid .card small{color:var(--red);font-weight:700}
 @media(max-width:800px){.page-section{padding:40px 7vw 70px}.articles-page-head{margin-bottom:30px}.articles-page-head h2{font-size:48px}#radio-grid .card,#video-grid .card,#blog-grid .card,#contact-grid .card{width:90%;min-height:155px;padding:22px}}
+
+/* Présentation du blog BCTM — bloc centré */
+#blog-grid{align-items:center}
+#blog-grid .blog-bctm-card{width:90%;max-width:850px;min-height:auto;text-align:center;padding:42px 50px}
+#blog-grid .blog-bctm-card h3{font-size:clamp(30px,4vw,48px);margin:18px auto 24px;max-width:720px}
+#blog-grid .blog-bctm-card p{max-width:700px;margin:0 auto 18px;font-size:14px;line-height:1.7;color:#555}
+#blog-grid .blog-bctm-card a{color:inherit}
+#blog-grid .blog-bctm-card strong{font-weight:700}
+#blog-grid .blog-bctm-card .blog-visit-link{display:inline-block;margin-top:12px;background:#111;color:#fff;padding:13px 20px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;transition:.25s ease}
+#blog-grid .blog-bctm-card .blog-visit-link:hover{background:#444}
+@media(max-width:800px){#blog-grid .blog-bctm-card{width:100%;padding:30px 22px}#blog-grid .blog-bctm-card h3{font-size:32px}}
