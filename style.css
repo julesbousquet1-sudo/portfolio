@@ -83,8 +83,8 @@
 #articles-grid .card{width:72%;min-height:190px;padding:28px 30px}
 #articles-grid .card:nth-child(even){align-self:flex-end}
 #articles-grid .card h3{font-size:25px;margin:18px 0 12px}
-#articles-grid .card:nth-child(1):hover::after{background:linear-gradient(90deg,rgba(130,25,25,.94),rgba(130,25,25,.62))}
-#articles-grid .card:nth-child(2):hover::after{background:linear-gradient(90deg,rgba(25,65,120,.94),rgba(25,65,120,.62))}
-#articles-grid .card:nth-child(3):hover::after{background:linear-gradient(90deg,rgba(30,95,65,.94),rgba(30,95,65,.62))}
+#articles-grid .card:nth-child(1):hover::after{background:linear-gradient(90deg,rgba(30,95,65,.94),rgba(30,95,65,.62))}
+#articles-grid .card:nth-child(2):hover::after{background:linear-gradient(90deg,rgba(130,25,25,.94),rgba(130,25,25,.62))}
+#articles-grid .card:nth-child(3):hover::after{background:linear-gradient(90deg,rgba(25,65,120,.94),rgba(25,65,120,.62))}
 #articles-grid .card:hover{color:#fff}
 @media(max-width:800px){#articles-grid .card{width:90%;min-height:155px;padding:22px}.articles-page-head{margin-bottom:30px}}
