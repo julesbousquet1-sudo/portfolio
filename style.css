@@ -145,3 +145,19 @@
 #blog-grid .blog-bctm-card .blog-visit-link{display:inline-block;margin-top:12px;background:#111;color:#fff;padding:13px 20px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;transition:.25s ease}
 #blog-grid .blog-bctm-card .blog-visit-link:hover{background:#444}
 @media(max-width:800px){#blog-grid .blog-bctm-card{width:100%;padding:30px 22px}#blog-grid .blog-bctm-card h3{font-size:32px}}
+
+/* Blog BCTM — titre sur photo, texte libre sous le titre */
+.blog-page-head{position:relative;max-width:1100px;height:360px;margin:0 auto 48px;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;background-image:linear-gradient(rgba(17,17,17,.48),rgba(17,17,17,.48)),url("https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1800&q=85");background-size:cover;background-position:center}
+.blog-page-head h2,.blog-page-head p{position:relative;z-index:1;color:#fff}
+.blog-page-head h2{font-size:clamp(58px,8vw,100px);text-shadow:0 2px 15px #0005}
+.blog-page-head p{max-width:650px;text-shadow:0 1px 8px #0006}
+#blog-grid{max-width:850px;margin:0 auto;display:block}
+#blog-grid .blog-bctm-text{width:100%;text-align:left;padding:0 10px}
+#blog-grid .blog-bctm-text small{color:var(--red);font-weight:700;letter-spacing:.12em;font-size:11px}
+#blog-grid .blog-bctm-text h3{font-family:'Playfair Display',serif;font-size:clamp(32px,4vw,52px);line-height:1.02;margin:16px 0 28px;max-width:800px}
+#blog-grid .blog-bctm-text p{font-size:15px;line-height:1.8;color:#555;margin:0 0 20px;max-width:800px}
+#blog-grid .blog-bctm-text a{color:inherit;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+#blog-grid .blog-bctm-text strong{font-weight:700;color:var(--ink)}
+#blog-grid .blog-bctm-text .blog-visit-link{display:inline-block;margin-top:8px;background:#111;color:#fff;text-decoration:none;padding:13px 20px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;transition:.25s ease}
+#blog-grid .blog-bctm-text .blog-visit-link:hover{background:#444;color:#fff}
+@media(max-width:800px){.blog-page-head{height:280px;margin-bottom:38px}.blog-page-head h2{font-size:58px}#blog-grid{max-width:100%}#blog-grid .blog-bctm-text{padding:0 2px}#blog-grid .blog-bctm-text h3{font-size:34px}}
