@@ -14,4 +14,4 @@
 .home-contact::before,.home-contact .home-icon{background-image:url("https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=900&q=80")}
 .home-link strong,.home-link small{position:relative;z-index:1}
 @media(max-width:800px){.home-link{min-height:155px;padding:22px}.home-icon{width:82px;height:60px}}
-.socials .instagram-icon svg{width:22px;height:22px;display:block}.socials .instagram-icon{font-size:0}
+.socials .instagram-icon svg{width:22px;height:22px;display:block}.socials .instagram-icon{font-size:0}.socials a{width:46px;height:46px;min-width:46px;min-height:46px;padding:0;box-sizing:border-box}.socials a svg{width:22px;height:22px;display:block}.socials a:not(.instagram-icon){font-size:0}.socials a[href^="mailto:"]::before{content:"✉";font-size:20px;line-height:1}.socials a[href*="linkedin"]::before{content:"in";font-size:18px;font-weight:700;line-height:1}.socials .instagram-icon svg{width:22px;height:22px;display:block}.socials .instagram-icon{font-size:0}
