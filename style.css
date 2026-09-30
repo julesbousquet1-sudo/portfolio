@@ -133,3 +133,10 @@
   .cv-documents{grid-template-columns:1fr}
   .cv-documents .cv-viewer{min-height:500px!important}
 }
+
+
+/* Élargir les blocs CV et autoportrait */
+.cv-documents{width:calc(100% + 8vw)!important;margin-left:-4vw!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:24px!important}
+@media(max-width:800px){
+  .cv-documents{width:100%!important;margin-left:0!important;grid-template-columns:1fr!important}
+}
