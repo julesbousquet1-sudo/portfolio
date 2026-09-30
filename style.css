@@ -171,3 +171,18 @@
     gap:20px!important;
   }
 }
+
+/* Correction mobile définitive : empilement forcé des deux blocs */
+@media screen and (max-width:800px){
+  .contact-intro .cv-documents,
+  .contact-intro .cv-documents .cv-viewer{
+    display:block!important;
+    width:100%!important;
+  }
+  .contact-intro .cv-documents .cv-viewer{
+    margin:0 0 20px 0!important;
+  }
+  .contact-intro .cv-documents .cv-viewer:last-child{
+    margin-bottom:0!important;
+  }
+}
