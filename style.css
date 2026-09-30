@@ -14,3 +14,4 @@
 .home-contact::before,.home-contact .home-icon{background-image:url("https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=900&q=80")}
 .home-link strong,.home-link small{position:relative;z-index:1}
 @media(max-width:800px){.home-link{min-height:155px;padding:22px}.home-icon{width:82px;height:60px}}
+.socials .instagram-icon svg{width:22px;height:22px;display:block}.socials .instagram-icon{font-size:0}
