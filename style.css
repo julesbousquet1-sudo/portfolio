@@ -108,3 +108,9 @@
 /* CV : texte noir au repos, blanc au survol */
 .cv-viewer-link span,.cv-viewer-link small{color:#111!important}
 .cv-viewer-link:hover span,.cv-viewer-link:hover small{color:#fff!important}
+
+/* CV : ombre du texte pour renforcer le contraste */
+.cv-viewer-link span{text-shadow:0 2px 8px rgba(255,255,255,.9),0 1px 3px rgba(0,0,0,.35)!important}
+.cv-viewer-link small{text-shadow:0 1px 5px rgba(255,255,255,.9),0 1px 2px rgba(0,0,0,.35)!important}
+.cv-viewer-link:hover span{text-shadow:0 2px 8px rgba(0,0,0,.85)!important}
+.cv-viewer-link:hover small{text-shadow:0 1px 5px rgba(0,0,0,.85)!important}
