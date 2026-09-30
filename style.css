@@ -107,3 +107,30 @@
 #articles-grid .card-logo{display:none!important}
 /* Photo rugby fiable pour le bloc Rugbyrama */
 #articles-grid .card:nth-child(1)::before{background-image:url("https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=1400&q=85")!important}
+
+
+/* Même composition que la page Articles pour tous les onglets */
+.page-section{padding:54px 7vw 100px;min-height:calc(100vh - 76px);background:var(--bg)}
+.articles-page-head{text-align:center;margin:0 auto 42px;max-width:1100px}
+.articles-page-head h2{margin:0 0 12px;font-family:"Playfair Display",serif;font-size:clamp(48px,6vw,78px);line-height:.95;letter-spacing:-.04em}
+.articles-page-head p{margin:0 auto;color:var(--muted);max-width:600px}
+#radio-grid,#video-grid,#blog-grid,#contact-grid{display:flex;flex-direction:column;gap:14px;max-width:900px;margin:0 auto}
+#radio-grid .card,#video-grid .card,#blog-grid .card,#contact-grid .card{width:72%;min-height:190px;padding:28px 30px;position:relative;overflow:hidden;isolation:isolate;border:1px solid var(--line);background:var(--bg);transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease}
+#radio-grid .card:nth-child(even),#video-grid .card:nth-child(even),#blog-grid .card:nth-child(even),#contact-grid .card:nth-child(even){align-self:flex-end}
+#radio-grid .card::before,#video-grid .card::before,#blog-grid .card::before,#contact-grid .card::before{content:"";position:absolute;inset:0;background-position:center;background-size:cover;filter:grayscale(1) contrast(1.15);opacity:.20;transform:scale(1.02);transition:.35s ease;z-index:-2}
+#radio-grid .card::after,#video-grid .card::after,#blog-grid .card::after,#contact-grid .card::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(244,241,235,.92),rgba(244,241,235,.70) 48%,rgba(244,241,235,.25));z-index:-1;transition:.35s ease}
+#radio-grid .card:hover,#video-grid .card:hover,#blog-grid .card:hover,#contact-grid .card:hover{transform:translateY(-8px);color:#fff;border-color:#111;box-shadow:0 18px 35px #0002}
+#radio-grid .card:hover::before,#video-grid .card:hover::before,#blog-grid .card:hover::before,#contact-grid .card:hover::before{opacity:.42;transform:scale(1.07)}
+#radio-grid .card:hover::after{background:linear-gradient(90deg,rgba(60,70,115,.94),rgba(60,70,115,.62))}
+#video-grid .card:hover::after{background:linear-gradient(90deg,rgba(110,65,25,.94),rgba(110,65,25,.62))}
+#blog-grid .card:hover::after{background:linear-gradient(90deg,rgba(70,70,70,.94),rgba(70,70,70,.62))}
+#contact-grid .card:hover::after{background:linear-gradient(90deg,rgba(130,25,25,.94),rgba(130,25,25,.62))}
+#radio-grid .card:nth-child(1)::before{background-image:url("https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1400&q=85")}
+#video-grid .card:nth-child(1)::before{background-image:url("https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1400&q=85")}
+#blog-grid .card:nth-child(1)::before{background-image:url("https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=1400&q=85")}
+#contact-grid .card:nth-child(1)::before{background-image:url("https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=1400&q=85")}
+#contact-grid .card:nth-child(2)::before{background-image:url("https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1400&q=85")}
+#radio-grid .card h3,#video-grid .card h3,#blog-grid .card h3,#contact-grid .card h3{position:relative;z-index:1;font-family:"Playfair Display",serif;font-size:25px;margin:18px 0 12px}
+#radio-grid .card p,#video-grid .card p,#blog-grid .card p,#contact-grid .card p,#radio-grid .card small,#video-grid .card small,#blog-grid .card small,#contact-grid .card small{position:relative;z-index:1}
+#radio-grid .card small,#video-grid .card small,#blog-grid .card small,#contact-grid .card small{color:var(--red);font-weight:700}
+@media(max-width:800px){.page-section{padding:40px 7vw 70px}.articles-page-head{margin-bottom:30px}.articles-page-head h2{font-size:48px}#radio-grid .card,#video-grid .card,#blog-grid .card,#contact-grid .card{width:90%;min-height:155px;padding:22px}}
