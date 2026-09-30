@@ -34,3 +34,12 @@
 #articles-grid .card h3 a,#articles-grid .card .meta a{color:inherit}
 #articles-grid .card{cursor:pointer}
 @media(max-width:800px){#articles-grid .card{min-height:280px;padding:22px}}
+
+/* Ajustements visuels finaux — accueil et footer */
+.hero{padding-top:1vw}
+.portfolio-title{font-size:clamp(28px,3.2vw,46px);margin:2px 0 12px}
+.hero-photo{margin-bottom:18px}
+.socials a{width:46px!important;height:46px!important;min-width:46px!important;min-height:46px!important;padding:0!important;font-size:0!important;display:flex!important;align-items:center!important;justify-content:center!important}
+.socials a svg{width:21px!important;height:21px!important}
+.socials a[href^="mailto:"]::before{font-size:19px!important;line-height:1!important}
+.socials a[href*="linkedin"]::before{font-size:17px!important;font-weight:700!important;line-height:1!important}
