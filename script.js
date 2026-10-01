@@ -18,8 +18,8 @@ radio:[
 {cat:"Narration",title:"Soyons le changement",desc:"Plongez-vous dans ces deux minutes de constatation, d’émotion et surtout d’espoir.",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/C3D0Skwi_Zv/?utm_source=ig_web_copy_link&stkn=",instagram:true}
 ],
 video:[
-{cat:"Vidéo",title:"Séquence 01",desc:"Vidéo.",media:"Vidéo",date:"MP4",url:"Séquence 01.mp4",video:true},
-{cat:"Vidéo",title:"received_3287063024788488",desc:"Vidéo.",media:"Vidéo",date:"MP4",url:"received_3287063024788488.mp4",video:true},
+{cat:"Motion design",title:"Séquence 01",desc:"Motion design sur Adobe After Effects.",media:"Vidéo",date:"MP4",url:"Séquence 01.mp4",video:true},
+{cat:"Apparition à l’écran",title:"Apparition à l’écran",desc:"Apparition à l’écran avec une vidéo tournée chez TrashTalk.",media:"Vidéo",date:"MP4",url:"received_3287063024788488.mp4",video:true},
 {cat:"Vidéo",title:"Vidéo YouTube — 1",desc:"Vidéo YouTube.",media:"YouTube",date:"Vidéo",url:"https://youtu.be/hv1vBZK2mQU?si=yh_ZlQWFNtijvx-a",youtube:true},
 {cat:"Vidéo",title:"Vidéo Instagram — 1",desc:"Vidéo Instagram.",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/DCFQv_vObfv/?utm_source=ig_web_copy_link&stkn=",instagram:true},
 {cat:"Vidéo",title:"Vidéo YouTube — 2",desc:"Vidéo YouTube.",media:"YouTube",date:"Vidéo",url:"https://youtu.be/4VHMBrfpQUc?si=0qI-iTrc8zvhcI9z",youtube:true}
@@ -76,7 +76,7 @@ function cards(a,id){
     });
   });
 }
-cards(data.articles,'articles-grid');cards(data.enquetes,'enquetes-grid');cards(data.radio.slice(0,4),'radio-sounds-grid');cards(data.radio.slice(4,6),'radio-emissions-grid');cards(data.radio.slice(6,8),'radio-narrations-grid');cards(data.video,'video-grid');
+cards(data.articles,'articles-grid');cards(data.enquetes,'enquetes-grid');cards(data.radio.slice(0,4),'radio-sounds-grid');cards(data.radio.slice(4,6),'radio-emissions-grid');cards(data.radio.slice(6,8),'radio-narrations-grid');cards(data.video.slice(2,5),'video-formats-grid');cards(data.video.slice(0,1),'video-motion-grid');cards(data.video.slice(1,2),'video-trash-talk-grid');
 const menu=document.getElementById('menu');const nav=document.querySelector('.site-nav');if(menu&&nav){
   let menuCloseTimer;
   const openMenu=()=>{clearTimeout(menuCloseTimer);nav.classList.add('open');};
