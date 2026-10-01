@@ -246,3 +246,19 @@
   .radio-page #radio-emissions .card,
   .radio-page #radio-narrations .card{min-height:340px}
 }
+
+
+/* Visuel du podcast Plaquages Invisibles */
+#radio-sounds .card:nth-child(4)::before{
+  background-image:url("Logo%20podcast%20Plaquages%20Invisibles.png")!important;
+  background-size:contain!important;
+  background-repeat:no-repeat!important;
+  background-position:center!important;
+  opacity:.72!important;
+  transform:none!important;
+}
+#radio-sounds .card:nth-child(4)::after{
+  background:linear-gradient(90deg,rgba(244,241,235,.72),rgba(244,241,235,.50) 55%,rgba(244,241,235,.22))!important;
+}
+#radio-sounds .card:nth-child(4):hover::before{opacity:.82!important;transform:none!important}
+#radio-sounds .card:nth-child(4):hover::after{background:linear-gradient(90deg,rgba(17,17,17,.78),rgba(17,17,17,.52) 55%,rgba(17,17,17,.24))!important}
