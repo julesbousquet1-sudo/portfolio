@@ -76,7 +76,7 @@ function cards(a,id){
     });
   });
 }
-cards(data.articles,'articles-grid');cards(data.enquetes,'enquetes-grid');cards(data.radio.slice(0,4),'radio-sounds');cards(data.radio.slice(4,6),'radio-emissions');cards(data.radio.slice(6,8),'radio-narrations');cards(data.video,'video-grid');
+cards(data.articles,'articles-grid');cards(data.enquetes,'enquetes-grid');cards(data.radio.slice(0,4),'radio-sounds-grid');cards(data.radio.slice(4,6),'radio-emissions-grid');cards(data.radio.slice(6,8),'radio-narrations-grid');cards(data.video,'video-grid');
 const menu=document.getElementById('menu');const nav=document.querySelector('.site-nav');if(menu&&nav){
   let menuCloseTimer;
   const openMenu=()=>{clearTimeout(menuCloseTimer);nav.classList.add('open');};
