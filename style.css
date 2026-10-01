@@ -254,3 +254,23 @@
 #radio-sounds .card.podcast-card .podcast-logo{display:block!important;width:150px!important;height:150px!important;object-fit:contain!important;margin:0 auto 14px!important;position:relative!important;z-index:1!important}
 #radio-sounds .card.podcast-card .radio-audio{position:relative!important;z-index:2!important}
 @media(max-width:800px){#radio-sounds .card.podcast-card .podcast-logo{width:125px!important;height:125px!important}}
+
+
+/* Le logo du podcast n'est jamais utilisé comme arrière-plan */
+#radio-sounds .card.podcast-card::before,
+#radio-sounds .card.podcast-card::after{
+  background-image:none!important;
+}
+#radio-sounds .card.podcast-card .podcast-logo{
+  position:static!important;
+  display:block!important;
+  width:140px!important;
+  height:140px!important;
+  max-width:100%!important;
+  object-fit:contain!important;
+  margin:0 auto 18px!important;
+  padding:0!important;
+  border:0!important;
+  opacity:1!important;
+  transform:none!important;
+}
