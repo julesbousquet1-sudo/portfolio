@@ -204,3 +204,22 @@
     flex:0 0 auto!important;
   }
 }
+
+
+/* Vidéos MP4 de la page Vidéos : affichage fortement réduit */
+#video-grid .card:nth-child(1) .portfolio-video,
+#video-grid .card:nth-child(2) .portfolio-video{
+  width:260px!important;
+  max-width:100%!important;
+  height:146px!important;
+  object-fit:cover!important;
+  display:block!important;
+  margin:14px 0 0!important;
+}
+@media(max-width:800px){
+  #video-grid .card:nth-child(1) .portfolio-video,
+  #video-grid .card:nth-child(2) .portfolio-video{
+    width:220px!important;
+    height:124px!important;
+  }
+}
