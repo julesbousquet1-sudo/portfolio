@@ -58,7 +58,7 @@ function cards(a,id){
       media='<div class="radio-video instagram-video"><iframe src="'+instagramEmbed(x.url)+'" title="'+x.title+'" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>';
     }
     const isMedia=!!(x.audio||x.video||x.youtube||x.instagram);
-    return '<article class="card'+(isMedia?' radio-media-card':'')+'" role="link" tabindex="0" data-url="'+x.url+'"><img class="card-logo" src="'+(x.logo||"")+'" alt="'+x.media+'" loading="lazy" onerror="this.style.display=\'none\'"><div><small>'+String(i+1).padStart(2,'0')+' — '+x.cat+'</small><h3>'+(!isMedia?'<a href="'+x.url+'" target="_blank" rel="noopener noreferrer">'+x.title+' ↗</a>':x.title)+'</h3><p>'+x.desc+'</p>'+media+'</div></article>';
+    return '<article class="card'+(isMedia?' radio-media-card':'')+(x.podcast?' podcast-card':'')+'" role="link" tabindex="0" data-url="'+x.url+'"><img class="card-logo" src="'+(x.logo||"")+'" alt="'+x.media+'" loading="lazy" onerror="this.style.display=\'none\'"><div><small>'+String(i+1).padStart(2,'0')+' — '+x.cat+'</small><h3>'+(!isMedia?'<a href="'+x.url+'" target="_blank" rel="noopener noreferrer">'+x.title+' ↗</a>':x.title)+'</h3><p>'+x.desc+'</p>'+media+'</div></article>';
   }).join('');
   el.querySelectorAll('.card').forEach(c=>{
     c.addEventListener('click',e=>{
