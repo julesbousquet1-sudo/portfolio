@@ -1209,3 +1209,14 @@
   min-height:390px!important;
   height:390px!important;
 }
+
+
+/* Page Vidéos — conserver une typographie normale au survol */
+.video-page .video-media-grid .card:hover h3,
+.video-page .video-media-grid .card:hover p,
+.video-page .video-media-grid .card:hover small,
+.video-page .video-single-grid .card:hover h3,
+.video-page .video-single-grid .card:hover p,
+.video-page .video-single-grid .card:hover small{
+  font-style:normal!important;
+}
