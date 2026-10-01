@@ -439,28 +439,34 @@
 }
 
 
-/* Cohérence des autres blocs illustrés du portfolio */
-.page-grid .card{
+/* Cohérence des blocs vidéo de la page Radio */
+.radio-page #radio-emissions .card,
+.radio-page #radio-narrations .card{
   position:relative!important;
   overflow:hidden!important;
   isolation:isolate!important;
-  min-height:280px!important;
+  min-height:390px!important;
+  height:390px!important;
 }
-.page-grid .card::before{
+.radio-page #radio-emissions .card::before,
+.radio-page #radio-narrations .card::before{
   filter:grayscale(1)!important;
   background-position:center top!important;
   background-size:cover!important;
 }
-.page-grid .card::after{
-  z-index:-1!important;
-}
-.page-grid .card>div{
+.radio-page #radio-emissions .card>div,
+.radio-page #radio-narrations .card>div{
   position:relative!important;
   z-index:1!important;
 }
-.page-grid .card:hover::before{
+.radio-page #radio-emissions .card:hover::before,
+.radio-page #radio-narrations .card:hover::before{
   transform:scale(1.07)!important;
 }
-.page-grid .card:hover::after{
-  background:linear-gradient(90deg,rgba(17,17,17,.90),rgba(17,17,17,.62) 48%,rgba(17,17,17,.28) 100%)!important;
+@media(max-width:800px){
+  .radio-page #radio-emissions .card,
+  .radio-page #radio-narrations .card{
+    min-height:340px!important;
+    height:340px!important;
+  }
 }
