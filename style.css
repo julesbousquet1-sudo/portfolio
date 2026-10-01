@@ -437,3 +437,30 @@
     max-height:280px!important;
   }
 }
+
+
+/* Cohérence des autres blocs illustrés du portfolio */
+.page-grid .card{
+  position:relative!important;
+  overflow:hidden!important;
+  isolation:isolate!important;
+  min-height:280px!important;
+}
+.page-grid .card::before{
+  filter:grayscale(1)!important;
+  background-position:center top!important;
+  background-size:cover!important;
+}
+.page-grid .card::after{
+  z-index:-1!important;
+}
+.page-grid .card>div{
+  position:relative!important;
+  z-index:1!important;
+}
+.page-grid .card:hover::before{
+  transform:scale(1.07)!important;
+}
+.page-grid .card:hover::after{
+  background:linear-gradient(90deg,rgba(17,17,17,.90),rgba(17,17,17,.62) 48%,rgba(17,17,17,.28) 100%)!important;
+}
