@@ -590,3 +590,27 @@
     min-height:58px;
   }
 }
+
+
+/* Boutons Radio : plus compacts, arrondis et parfaitement centrés */
+.radio-page .radio-jump-links{
+  max-width:760px!important;
+  width:100%!important;
+  margin:0 auto 58px!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  justify-items:stretch!important;
+}
+.radio-page .radio-jump-links a{
+  min-height:54px!important;
+  padding:14px 16px!important;
+  border-radius:18px!important;
+}
+@media(max-width:800px){
+  .radio-page .radio-jump-links{
+    max-width:420px!important;
+  }
+  .radio-page .radio-jump-links a{
+    min-height:52px!important;
+    border-radius:16px!important;
+  }
+}
