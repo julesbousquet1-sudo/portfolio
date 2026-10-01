@@ -1176,3 +1176,28 @@
     width:92%!important;
   }
 }
+
+
+/* Retour du bloc Instagram à son format précédent */
+.video-page #video-reportages .video-media-grid .card:nth-child(3){
+  min-height:390px!important;
+  height:390px!important;
+  padding:26px 28px!important;
+}
+.video-page #video-reportages .video-media-grid .card:nth-child(3) .radio-video{
+  width:92%!important;
+  max-width:none!important;
+  margin:18px auto 0!important;
+  padding:8px!important;
+  box-sizing:border-box!important;
+}
+@media(max-width:800px){
+  .video-page #video-reportages .video-media-grid .card:nth-child(3){
+    min-height:340px!important;
+    height:340px!important;
+  }
+  .video-page #video-reportages .video-media-grid .card:nth-child(3) .radio-video{
+    width:100%!important;
+    padding:6px!important;
+  }
+}
