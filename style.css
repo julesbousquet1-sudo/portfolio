@@ -249,11 +249,10 @@
 
 
 
-/* Podcast : même traitement visuel que les blocs de l'accueil */
-.radio-page #radio-sounds .card{
-  position:relative!important;
-}
+
+/* Podcast : image pleine carte, sans effet de survol */
 .radio-page #radio-sounds .card.podcast-card{
+  position:relative!important;
   overflow:hidden!important;
   isolation:isolate!important;
 }
@@ -265,32 +264,32 @@
   background-position:center!important;
   background-size:cover!important;
   background-repeat:no-repeat!important;
-  opacity:.32!important;
-  transform:scale(1.02)!important;
+  opacity:.42!important;
+  transform:none!important;
   z-index:-2!important;
-  transition:.35s ease!important;
 }
 .radio-page #radio-sounds .card.podcast-card::after{
   content:""!important;
   position:absolute!important;
   inset:0!important;
-  background:linear-gradient(90deg,rgba(244,241,235,.88) 0%,rgba(244,241,235,.62) 48%,rgba(244,241,235,.24) 100%)!important;
+  background:rgba(244,241,235,.62)!important;
   z-index:-1!important;
-  transition:.35s ease!important;
-}
-.radio-page #radio-sounds .card.podcast-card>div{
-  position:relative!important;
-  z-index:1!important;
 }
 .radio-page #radio-sounds .card.podcast-card:hover::before{
-  opacity:.48!important;
-  transform:scale(1.07)!important;
+  opacity:.42!important;
+  transform:none!important;
 }
 .radio-page #radio-sounds .card.podcast-card:hover::after{
-  background:linear-gradient(90deg,rgba(17,17,17,.90),rgba(17,17,17,.62) 48%,rgba(17,17,17,.28) 100%)!important;
+  background:rgba(244,241,235,.62)!important;
+}
+.radio-page #radio-sounds .card.podcast-card:hover{
+  color:var(--ink)!important;
+  border-color:var(--line)!important;
+  transform:none!important;
+  box-shadow:none!important;
 }
 .radio-page #radio-sounds .card.podcast-card:hover h3,
 .radio-page #radio-sounds .card.podcast-card:hover p,
 .radio-page #radio-sounds .card.podcast-card:hover small{
-  color:#fff!important;
+  color:inherit!important;
 }
