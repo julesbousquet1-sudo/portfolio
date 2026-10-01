@@ -15,7 +15,13 @@ radio:[
 {cat:"Vidéo",title:"Vidéo — 1",desc:"Vidéo YouTube.",media:"YouTube",date:"Vidéo",url:"https://youtu.be/2jX_oNe7Wrg?si=qvb_IXDqAULRJNU3",youtube:true},
 {cat:"Vidéo",title:"Vidéo — 2",desc:"Vidéo YouTube.",media:"YouTube",date:"Vidéo",url:"https://youtu.be/JYpOF9M8z8s",youtube:true}
 ],
-video:[{cat:"Reportage",title:"Ton reportage vidéo",desc:"Présente ici le sujet et ton rôle.",media:"Vidéo",date:"2026",url:"#"}]};
+video:[
+{cat:"Vidéo",title:"Séquence 01",desc:"Vidéo.",media:"Vidéo",date:"MP4",url:"Séquence 01.mp4",video:true},
+{cat:"Vidéo",title:"received_3287063024788488",desc:"Vidéo.",media:"Vidéo",date:"MP4",url:"received_3287063024788488.mp4",video:true},
+{cat:"Vidéo",title:"Vidéo YouTube — 1",desc:"Vidéo YouTube.",media:"YouTube",date:"Vidéo",url:"https://youtu.be/hv1vBZK2mQU?si=yh_ZlQWFNtijvx-a",youtube:true},
+{cat:"Vidéo",title:"Vidéo Instagram — 1",desc:"Vidéo Instagram.",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/DCFQv_vObfv/?utm_source=ig_web_copy_link&stkn=",instagram:true},
+{cat:"Vidéo",title:"Vidéo YouTube — 2",desc:"Vidéo YouTube.",media:"YouTube",date:"Vidéo",url:"https://youtu.be/4VHMBrfpQUc?si=0qI-iTrc8zvhcI9z",youtube:true}
+]};
 
 function youtubeEmbed(url){
   try{
@@ -27,6 +33,14 @@ function youtubeEmbed(url){
   }catch(e){return url;}
 }
 
+function instagramEmbed(url){
+  try{
+    const u=new URL(url);
+    const match=u.pathname.match(/\/reel\/([^/]+)/i);
+    return match ? "https://www.instagram.com/reel/"+encodeURIComponent(match[1])+"/embed" : url;
+  }catch(e){return url;}
+}
+
 function cards(a,id){
   const el=document.getElementById(id);
   if(!el)return;
@@ -34,18 +48,23 @@ function cards(a,id){
     let media="";
     if(x.audio){
       media='<audio class="radio-audio" controls preload="metadata" src="'+x.url+'"></audio>';
+    }else if(x.video){
+      media='<video class="portfolio-video" controls preload="metadata" playsinline src="'+x.url+'"></video>';
     }else if(x.youtube){
       media='<div class="radio-video"><iframe src="'+youtubeEmbed(x.url)+'" title="'+x.title+'" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>';
+    }else if(x.instagram){
+      media='<div class="radio-video instagram-video"><iframe src="'+instagramEmbed(x.url)+'" title="'+x.title+'" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe></div>';
     }
-    return '<article class="card'+((x.audio||x.youtube)?' radio-media-card':'')+'" role="link" tabindex="0" data-url="'+x.url+'"><img class="card-logo" src="'+(x.logo||"")+'" alt="'+x.media+'" loading="lazy" onerror="this.style.display=\'none\'"><div><small>'+String(i+1).padStart(2,'0')+' — '+x.cat+'</small><h3>'+((x.audio||x.youtube)?x.title+' ↗':'<a href="'+x.url+'" target="_blank" rel="noopener noreferrer">'+x.title+' ↗</a>')+'</h3><p>'+x.desc+'</p>'+media+'</div></article>';
+    const isMedia=!!(x.audio||x.video||x.youtube||x.instagram);
+    return '<article class="card'+(isMedia?' radio-media-card':'')+'" role="link" tabindex="0" data-url="'+x.url+'"><img class="card-logo" src="'+(x.logo||"")+'" alt="'+x.media+'" loading="lazy" onerror="this.style.display=\'none\'"><div><small>'+String(i+1).padStart(2,'0')+' — '+x.cat+'</small><h3>'+(!isMedia?'<a href="'+x.url+'" target="_blank" rel="noopener noreferrer">'+x.title+' ↗</a>':x.title)+'</h3><p>'+x.desc+'</p>'+media+'</div></article>';
   }).join('');
   el.querySelectorAll('.card').forEach(c=>{
     c.addEventListener('click',e=>{
-      if(e.target.closest('audio,iframe'))return;
+      if(e.target.closest('audio,video,iframe'))return;
       if(!e.target.closest('a') && c.dataset.url && c.dataset.url!=="#")window.open(c.dataset.url,'_blank','noopener,noreferrer');
     });
     c.addEventListener('keydown',e=>{
-      if((e.key==='Enter'||e.key===' ')&&!e.target.closest('audio')){
+      if((e.key==='Enter'||e.key===' ')&&!e.target.closest('audio,video')){
         e.preventDefault();
         if(c.dataset.url&&c.dataset.url!=="#")window.open(c.dataset.url,'_blank','noopener,noreferrer');
       }
