@@ -786,3 +786,108 @@
 .radio-page #radio-sounds .card:nth-child(4):hover small{
   font-style:italic!important;
 }
+
+
+/* Page Vidéos : trois parties séparées comme la page Radio */
+.video-page .video-block{
+  max-width:1100px;
+  margin:0 auto;
+}
+.video-page .video-block + .video-block{
+  border-top:1px solid var(--line);
+  margin-top:64px;
+  padding-top:54px;
+}
+.video-page .video-block-head{
+  text-align:center;
+  margin:0 auto 28px;
+  max-width:760px;
+}
+.video-page .video-block-head h3{
+  font-family:"Playfair Display",serif;
+  font-size:clamp(34px,4vw,50px);
+  margin:0 0 10px;
+}
+.video-page .video-media-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+  max-width:900px;
+  margin:0 auto;
+}
+.video-page .video-single-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:18px;
+  max-width:900px;
+  margin:0 auto;
+}
+.video-page .video-media-grid .card,
+.video-page .video-single-grid .card{
+  width:100%;
+  min-height:390px;
+  height:390px;
+  padding:26px 28px;
+  align-self:stretch;
+  position:relative;
+  overflow:hidden;
+  isolation:isolate;
+}
+.video-page .video-media-grid .card>div,
+.video-page .video-single-grid .card>div{
+  position:relative;
+  z-index:1;
+}
+.video-page .video-media-grid .card .radio-video,
+.video-page .video-single-grid .card .radio-video{
+  width:100%;
+  margin-top:18px;
+  aspect-ratio:16/9;
+  overflow:hidden;
+  background:#111;
+  position:relative;
+  z-index:2;
+}
+.video-page .video-media-grid .card .radio-video iframe,
+.video-page .video-single-grid .card .radio-video iframe{
+  width:100%;
+  height:100%;
+  display:block;
+  border:0;
+}
+.video-page .video-media-grid .card:nth-child(3){
+  grid-column:1 / -1;
+  width:min(620px,100%);
+  justify-self:center;
+}
+.video-page .video-single-grid .portfolio-video{
+  width:100%;
+  max-height:290px;
+  object-fit:contain;
+  display:block;
+  margin:18px auto 0;
+  position:relative;
+  z-index:2;
+}
+@media(max-width:800px){
+  .video-page .video-block + .video-block{
+    margin-top:46px;
+    padding-top:38px;
+  }
+  .video-page .video-media-grid{
+    grid-template-columns:1fr;
+    max-width:620px;
+  }
+  .video-page .video-media-grid .card:nth-child(3){
+    grid-column:auto;
+    width:100%;
+  }
+  .video-page .video-media-grid .card,
+  .video-page .video-single-grid .card{
+    min-height:340px;
+    height:340px;
+  }
+  .video-page .video-single-grid .portfolio-video{
+    max-height:240px;
+  }
+}
