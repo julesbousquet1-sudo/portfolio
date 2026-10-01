@@ -18,7 +18,7 @@ radio:[
 {cat:"Narration",title:"Soyons le changement",desc:"Plongez-vous dans ces deux minutes de constatation, d’émotion et surtout d’espoir.",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/C3D0Skwi_Zv/?utm_source=ig_web_copy_link&stkn=",instagram:true}
 ],
 video:[
-{cat:"Motion design",title:"Comment fonctionne une saison NFL ?",desc:"Vidéo Motion Design (<i>motion design</i>) réalisée sur Adobe After Effects",media:"Vidéo",date:"MP4",url:"Séquence 01.mp4",video:true},
+{cat:"Motion design",title:"Comment fonctionne une saison NFL ?",desc:"Vidéo <i>motion design</i> réalisée sur Adobe After Effects",media:"Vidéo",date:"MP4",url:"Séquence 01.mp4",video:true},
 {cat:"Apparition à l’écran",title:"Extrait d’un passage dans le média TrashTalk",desc:"Vidéo tournée dans les studios de TrashTalk au cours de mon contrat chez eux.",media:"Vidéo",date:"MP4",url:"received_3287063024788488.mp4",video:true},
 {cat:"Reportage",title:"Reportage au sein de la Tony Parker Academy",desc:"Interviews, prise d’images et voix off",media:"YouTube",date:"Vidéo",url:"https://youtu.be/hv1vBZK2mQU?si=yh_ZlQWFNtijvx-a",youtube:true},
 {cat:"Reportage",title:"Immersion dans un déplacement du BCTM",desc:"Montage d’un reportage immersif avec l’équipe féminine de La Tronche.",media:"YouTube",date:"Vidéo",url:"https://youtu.be/4VHMBrfpQUc?si=0qI-iTrc8zvhcI9z",youtube:true},
