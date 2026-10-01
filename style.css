@@ -1220,3 +1220,20 @@
 .video-page .video-single-grid .card:hover small{
   font-style:normal!important;
 }
+
+
+/* Motion design — vidéo entièrement visible sur mobile */
+@media(max-width:800px){
+  .video-page #video-motion .video-single-grid .card{
+    height:auto!important;
+    min-height:0!important;
+    padding-bottom:30px!important;
+  }
+  .video-page #video-motion .video-single-grid .portfolio-video{
+    width:100%!important;
+    max-width:100%!important;
+    max-height:none!important;
+    height:auto!important;
+    object-fit:contain!important;
+  }
+}
