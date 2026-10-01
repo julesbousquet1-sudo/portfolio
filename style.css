@@ -367,3 +367,42 @@
 .radio-page #radio-sounds .card:nth-child(3):hover small{
   color:inherit!important;
 }
+
+
+/* Effet de survol réactivé sur les 4 sons */
+.radio-page #radio-sounds .card:nth-child(1):hover,
+.radio-page #radio-sounds .card:nth-child(2):hover,
+.radio-page #radio-sounds .card:nth-child(3):hover,
+.radio-page #radio-sounds .card:nth-child(4):hover{
+  color:#fff!important;
+  border-color:#111!important;
+  transform:translateY(-7px)!important;
+  box-shadow:0 18px 35px #0002!important;
+}
+.radio-page #radio-sounds .card:nth-child(1):hover::before,
+.radio-page #radio-sounds .card:nth-child(2):hover::before,
+.radio-page #radio-sounds .card:nth-child(3):hover::before,
+.radio-page #radio-sounds .card:nth-child(4):hover::before{
+  opacity:.48!important;
+  transform:scale(1.07)!important;
+}
+.radio-page #radio-sounds .card:nth-child(1):hover::after,
+.radio-page #radio-sounds .card:nth-child(2):hover::after,
+.radio-page #radio-sounds .card:nth-child(3):hover::after,
+.radio-page #radio-sounds .card:nth-child(4):hover::after{
+  background:rgba(17,17,17,.58)!important;
+}
+.radio-page #radio-sounds .card:nth-child(1):hover h3,
+.radio-page #radio-sounds .card:nth-child(1):hover p,
+.radio-page #radio-sounds .card:nth-child(1):hover small,
+.radio-page #radio-sounds .card:nth-child(2):hover h3,
+.radio-page #radio-sounds .card:nth-child(2):hover p,
+.radio-page #radio-sounds .card:nth-child(2):hover small,
+.radio-page #radio-sounds .card:nth-child(3):hover h3,
+.radio-page #radio-sounds .card:nth-child(3):hover p,
+.radio-page #radio-sounds .card:nth-child(3):hover small,
+.radio-page #radio-sounds .card:nth-child(4):hover h3,
+.radio-page #radio-sounds .card:nth-child(4):hover p,
+.radio-page #radio-sounds .card:nth-child(4):hover small{
+  color:#fff!important;
+}
