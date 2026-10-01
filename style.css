@@ -645,3 +645,21 @@
     width:min(420px,90%)!important;
   }
 }
+
+
+/* Positionnement final des boutons Radio : juste sous le logo/header */
+.radio-page{
+  padding-top:18px!important;
+}
+.radio-page .radio-jump-links{
+  margin-top:0!important;
+  margin-bottom:40px!important;
+}
+@media(max-width:800px){
+  .radio-page{
+    padding-top:20px!important;
+  }
+  .radio-page .radio-jump-links{
+    margin-bottom:34px!important;
+  }
+}
