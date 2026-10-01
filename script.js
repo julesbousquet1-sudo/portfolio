@@ -11,7 +11,7 @@ radio:[
 {cat:"Reportage sonore",title:"Reportage — Jules",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage - jules - .mp3",audio:true},
 {cat:"Reportage sonore",title:"Reportage 2 — Jules",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage 2 - jules - .mp3",audio:true},
 {cat:"Reportage sonore",title:"Reportage 3 — Jules",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage 3 - jules - .mp3",audio:true},
-{cat:"Podcast",title:"Bande annonce du podcast : <i>Plaquages Invisibles</i>",desc:"Projet de podcast personnel et original",media:"Podcast",date:"Son",url:"bande annonce plaquage invisible - podcast --.mp3",audio:true},
+{cat:"Podcast",title:"Bande annonce du podcast : <i>Plaquages Invisibles</i>",desc:"Projet de podcast personnel et original",media:"Podcast",date:"Son",url:"bande annonce plaquage invisible - podcast --.mp3",audio:true,podcast:true},
 {cat:"Émission radio",title:"Émission radio — 1",desc:"Émission réalisée et enregistrée par moi en tant que présentateur.",media:"YouTube",date:"Émission",url:"https://youtu.be/2jX_oNe7Wrg?si=qvb_IXDqAULRJNU3",youtube:true},
 {cat:"Émission radio",title:"Émission radio — 2",desc:"Émission réalisée et enregistrée par moi en tant que présentateur.",media:"YouTube",date:"Émission",url:"https://youtu.be/JYpOF9M8z8s",youtube:true},
 {cat:"Narration",title:"Narration — 1",desc:"Je narre un texte sur un sujet qui me tient à cœur.",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/C3abCABN8ZX/?utm_source=ig_web_copy_link&stkn",instagram:true},
@@ -49,7 +49,7 @@ function cards(a,id){
   el.innerHTML=a.map((x,i)=>{
     let media="";
     if(x.audio){
-      media='<audio class="radio-audio" controls preload="metadata" src="'+x.url+'"></audio>';
+      media=(x.podcast?'<img class="podcast-logo" src="Logo%20podcast%20Plaquages%20Invisibles.png" alt="Logo du podcast Plaquages Invisibles">' : "") + '<audio class="radio-audio" controls preload="metadata" src="'+x.url+'"></audio>';
     }else if(x.video){
       media='<video class="portfolio-video" controls preload="metadata" playsinline src="'+x.url+'"></video>';
     }else if(x.youtube){
