@@ -545,3 +545,48 @@
   position:relative!important;
   z-index:2!important;
 }
+
+
+/* Boutons d'accès rapide en haut de la page Radio */
+.radio-page .radio-jump-links{
+  max-width:900px;
+  margin:0 auto 58px;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;
+  position:relative;
+  z-index:2;
+}
+.radio-page .radio-jump-links a{
+  min-height:70px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  border:1px solid var(--line);
+  background:var(--bg);
+  color:var(--ink);
+  padding:18px 20px;
+  font-size:11px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  transition:transform .25s ease,background .25s ease,color .25s ease,border-color .25s ease,box-shadow .25s ease;
+}
+.radio-page .radio-jump-links a:hover{
+  background:#111;
+  color:#fff;
+  border-color:#111;
+  transform:translateY(-5px);
+  box-shadow:0 14px 28px #0002;
+}
+@media(max-width:800px){
+  .radio-page .radio-jump-links{
+    grid-template-columns:1fr;
+    max-width:620px;
+    margin-bottom:44px;
+  }
+  .radio-page .radio-jump-links a{
+    min-height:58px;
+  }
+}
