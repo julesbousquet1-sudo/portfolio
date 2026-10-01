@@ -8,9 +8,9 @@ enquetes:[
 {cat:"Reportage",title:"La professionnalisation du rugby féminin : un combat encore inachevé",desc:"Un reportage sur des sportives de haut niveau dans un environnement en manque de moyens",media:"BD Reportage",date:"PDF",url:"BD Reportage Rugby Feminin Pearl et Jules.docx (2).pdf"}
 ],
 radio:[
-{cat:"Reportage sonore",title:"Reportage — Jules",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage - jules - .mp3",audio:true},
-{cat:"Reportage sonore",title:"Reportage 2 — Jules",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage 2 - jules - .mp3",audio:true},
-{cat:"Reportage sonore",title:"Reportage 3 — Jules",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage 3 - jules - .mp3",audio:true},
+{cat:"Reportage sonore",title:"Le COVID dans le médico-social",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage - jules - .mp3",audio:true},
+{cat:"Reportage sonore",title:"Élections américaines - réactions",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage 2 - jules - .mp3",audio:true},
+{cat:"Reportage sonore",title:"La folie des fêtes de Noël",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage 3 - jules - .mp3",audio:true},
 {cat:"Podcast",title:"Bande annonce du podcast : <i>Plaquages Invisibles</i>",desc:"Projet de podcast personnel et original",media:"Podcast",date:"Son",url:"bande annonce plaquage invisible - podcast --.mp3",audio:true,podcast:true},
 {cat:"Émission radio",title:"<i>Addictions</i>",desc:"Replay d’une émission en présence de chroniqueurs, journalistes et invités. Gestion de la régie.",media:"YouTube",date:"Émission",url:"https://youtu.be/2jX_oNe7Wrg?si=qvb_IXDqAULRJNU3",youtube:true},
 {cat:"Émission radio",title:"<i>Vers l’infini et au delà</i>",desc:"Replay d’une émission en présence de chroniqueurs, journalistes et invités. Gestion de la régie.",media:"YouTube",date:"Émission",url:"https://youtu.be/JYpOF9M8z8s",youtube:true},
