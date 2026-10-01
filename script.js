@@ -11,7 +11,7 @@ radio:[
 {cat:"Reportage sonore",title:"Reportage — Jules",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage - jules - .mp3",audio:true},
 {cat:"Reportage sonore",title:"Reportage 2 — Jules",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage 2 - jules - .mp3",audio:true},
 {cat:"Reportage sonore",title:"Reportage 3 — Jules",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage 3 - jules - .mp3",audio:true},
-{cat:"Podcast",title:"Bande annonce du podcast : Plaquages Invisibles",desc:"Projet de podcast personnel et original",media:"Podcast",date:"Son",url:"bande annonce plaquage invisible - podcast --.mp3",audio:true},
+{cat:"Podcast",title:"Bande annonce du podcast : <i>Plaquages Invisibles</i>",desc:"Projet de podcast personnel et original",media:"Podcast",date:"Son",url:"bande annonce plaquage invisible - podcast --.mp3",audio:true},
 {cat:"Émission radio",title:"Émission radio — 1",desc:"Émission réalisée et enregistrée par moi en tant que présentateur.",media:"YouTube",date:"Émission",url:"https://youtu.be/2jX_oNe7Wrg?si=qvb_IXDqAULRJNU3",youtube:true},
 {cat:"Émission radio",title:"Émission radio — 2",desc:"Émission réalisée et enregistrée par moi en tant que présentateur.",media:"YouTube",date:"Émission",url:"https://youtu.be/JYpOF9M8z8s",youtube:true},
 {cat:"Narration",title:"Narration — 1",desc:"Je narre un texte sur un sujet qui me tient à cœur.",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/C3abCABN8ZX/?utm_source=ig_web_copy_link&stkn",instagram:true},
