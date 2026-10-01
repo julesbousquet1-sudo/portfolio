@@ -663,3 +663,23 @@
     margin-bottom:34px!important;
   }
 }
+
+
+/* Centrage géométrique définitif du groupe des 3 boutons */
+@media(min-width:801px){
+  .radio-page .radio-jump-links{
+    display:flex!important;
+    width:max-content!important;
+    max-width:none!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+    justify-content:center!important;
+    align-items:center!important;
+    gap:14px!important;
+  }
+  .radio-page .radio-jump-links a{
+    width:210px!important;
+    min-width:210px!important;
+    flex:0 0 210px!important;
+  }
+}
