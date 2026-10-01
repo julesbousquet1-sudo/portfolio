@@ -49,7 +49,7 @@ function cards(a,id){
   el.innerHTML=a.map((x,i)=>{
     let media="";
     if(x.audio){
-      media=(x.podcast?'<img class="podcast-logo" src="Logo%20podcast%20Plaquages%20Invisibles.png" alt="Logo du podcast Plaquages Invisibles">' : "") + '<audio class="radio-audio" controls preload="metadata" src="'+x.url+'"></audio>';
+      media='<audio class="radio-audio" controls preload="metadata" src="'+x.url+'"></audio>';
     }else if(x.video){
       media='<video class="portfolio-video" controls preload="metadata" playsinline src="'+x.url+'"></video>';
     }else if(x.youtube){
