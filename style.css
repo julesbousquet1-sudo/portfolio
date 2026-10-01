@@ -1201,3 +1201,11 @@
     padding:6px!important;
   }
 }
+
+/* Reportages vidéo — cartes de même hauteur */
+.video-page #video-reportages .video-media-grid .card:nth-child(1),
+.video-page #video-reportages .video-media-grid .card:nth-child(2),
+.video-page #video-reportages .video-media-grid .card:nth-child(3){
+  min-height:390px!important;
+  height:390px!important;
+}
