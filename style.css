@@ -223,3 +223,26 @@
     height:124px!important;
   }
 }
+
+
+/* Page Radio : trois blocs séparés et sons en carré 2 x 2 */
+.radio-page .radio-block{max-width:1100px;margin:0 auto}
+.radio-page .radio-block + .radio-block{border-top:1px solid var(--line);margin-top:64px;padding-top:54px}
+.radio-page .radio-block-head{text-align:center;margin:0 auto 28px;max-width:760px}
+.radio-page .radio-block-head h3{font-family:"Playfair Display",serif;font-size:clamp(34px,4vw,50px);margin:0 0 10px}
+.radio-page .radio-block-head p{color:var(--muted);margin:0;font-size:14px;line-height:1.6}
+.radio-page .radio-media-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;max-width:900px;margin:0 auto}
+.radio-page .radio-media-grid .card{width:100%;min-height:250px;padding:26px 28px;align-self:stretch}
+.radio-page .radio-media-grid .radio-audio{width:100%;margin-top:20px}
+.radio-page .radio-media-grid .radio-video{width:100%;margin-top:18px;aspect-ratio:16/9;overflow:hidden;background:#111}
+.radio-page .radio-media-grid .radio-video iframe{width:100%;height:100%;display:block;border:0}
+.radio-page #radio-sounds .card{min-height:230px}
+.radio-page #radio-emissions .card,
+.radio-page #radio-narrations .card{min-height:390px}
+@media(max-width:800px){
+  .radio-page .radio-block + .radio-block{margin-top:46px;padding-top:38px}
+  .radio-page .radio-media-grid{grid-template-columns:1fr;max-width:620px}
+  .radio-page .radio-media-grid .card{min-height:230px}
+  .radio-page #radio-emissions .card,
+  .radio-page #radio-narrations .card{min-height:340px}
+}
