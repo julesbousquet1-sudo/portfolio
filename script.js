@@ -13,7 +13,9 @@ radio:[
 {cat:"Reportage sonore",title:"Reportage 3 — Jules",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage 3 - jules - .mp3",audio:true},
 {cat:"Podcast",title:"Plaquages Invisibles — bande-annonce",desc:"Bande-annonce du podcast Plaquages Invisibles.",media:"Podcast",date:"Son",url:"bande annonce plaquage invisible - podcast --.mp3",audio:true},
 {cat:"Vidéo",title:"Vidéo — 1",desc:"Vidéo YouTube.",media:"YouTube",date:"Vidéo",url:"https://youtu.be/2jX_oNe7Wrg?si=qvb_IXDqAULRJNU3",youtube:true},
-{cat:"Vidéo",title:"Vidéo — 2",desc:"Vidéo YouTube.",media:"YouTube",date:"Vidéo",url:"https://youtu.be/JYpOF9M8z8s",youtube:true}
+{cat:"Vidéo",title:"Vidéo — 2",desc:"Vidéo YouTube.",media:"YouTube",date:"Vidéo",url:"https://youtu.be/JYpOF9M8z8s",youtube:true},
+{cat:"Instagram",title:"Reel Instagram — 1",desc:"Vidéo Instagram.",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/C3abCABN8ZX/?utm_source=ig_web_copy_link&stkn",instagram:true},
+{cat:"Instagram",title:"Reel Instagram — 2",desc:"Vidéo Instagram.",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/C3D0Skwi_Zv/?utm_source=ig_web_copy_link&stkn=",instagram:true}
 ],
 video:[
 {cat:"Vidéo",title:"Séquence 01",desc:"Vidéo.",media:"Vidéo",date:"MP4",url:"Séquence 01.mp4",video:true},
