@@ -15,7 +15,7 @@ radio:[
 {cat:"Émission radio",title:"<i>Addictions</i>",desc:"Replay d’une émission en présence de chroniqueurs, journalistes et invités. Présentation et gestion de la régie.",media:"YouTube",date:"Émission",url:"https://youtu.be/2jX_oNe7Wrg?si=qvb_IXDqAULRJNU3",youtube:true},
 {cat:"Émission radio",title:"<i>Vers l’infini et au delà</i>",desc:"Replay d’une émission en présence de chroniqueurs, journalistes et invités. Présentation et gestion de la régie.",media:"YouTube",date:"Émission",url:"https://youtu.be/JYpOF9M8z8s",youtube:true},
 {cat:"Narration",title:"Pourquoi écrire ?",desc:"essayez, l’espace d’un instant, de vous laisser guider et emporter.",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/C3abCABN8ZX/?utm_source=ig_web_copy_link&stkn",instagram:true},
-{cat:"Narration",title:"Eduquons nos cerveaux pour que nous soyons le changement que nous voulons",desc:"Plongez-vous dans ces deux minutes de constatation, d’émotion et surtout d’espoir",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/C3D0Skwi_Zv/?utm_source=ig_web_copy_link&stkn=",instagram:true}
+{cat:"Narration",title:"Soyons le changement que nous voulons",desc:"Plongez-vous dans ces deux minutes de constatation, d’émotion et surtout d’espoir",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/C3D0Skwi_Zv/?utm_source=ig_web_copy_link&stkn=",instagram:true}
 ],
 video:[
 {cat:"Vidéo",title:"Séquence 01",desc:"Vidéo.",media:"Vidéo",date:"MP4",url:"Séquence 01.mp4",video:true},
