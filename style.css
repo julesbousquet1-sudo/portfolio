@@ -293,3 +293,77 @@
 .radio-page #radio-sounds .card.podcast-card:hover small{
   color:inherit!important;
 }
+
+
+/* Les 3 autres sons : même fonctionnement visuel que le podcast */
+.radio-page #radio-sounds .card:nth-child(1),
+.radio-page #radio-sounds .card:nth-child(2),
+.radio-page #radio-sounds .card:nth-child(3){
+  position:relative!important;
+  overflow:hidden!important;
+  isolation:isolate!important;
+  color:var(--ink)!important;
+  height:230px!important;
+  min-height:230px!important;
+  transform:none!important;
+  box-shadow:none!important;
+}
+.radio-page #radio-sounds .card:nth-child(1)::before,
+.radio-page #radio-sounds .card:nth-child(2)::before,
+.radio-page #radio-sounds .card:nth-child(3)::before{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  background-image:url("https://raw.githubusercontent.com/julesbousquet1-sudo/portfolio/main/IMG-20241025-WA0013%20(1).jpg")!important;
+  background-position:center!important;
+  background-size:cover!important;
+  background-repeat:no-repeat!important;
+  opacity:.42!important;
+  transform:none!important;
+  z-index:-2!important;
+}
+.radio-page #radio-sounds .card:nth-child(1)::after,
+.radio-page #radio-sounds .card:nth-child(2)::after,
+.radio-page #radio-sounds .card:nth-child(3)::after{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  background:rgba(244,241,235,.62)!important;
+  z-index:-1!important;
+}
+.radio-page #radio-sounds .card:nth-child(1)>div,
+.radio-page #radio-sounds .card:nth-child(2)>div,
+.radio-page #radio-sounds .card:nth-child(3)>div{
+  position:relative!important;
+  z-index:1!important;
+}
+.radio-page #radio-sounds .card:nth-child(1):hover,
+.radio-page #radio-sounds .card:nth-child(2):hover,
+.radio-page #radio-sounds .card:nth-child(3):hover{
+  color:var(--ink)!important;
+  border-color:var(--line)!important;
+  transform:none!important;
+  box-shadow:none!important;
+}
+.radio-page #radio-sounds .card:nth-child(1):hover::before,
+.radio-page #radio-sounds .card:nth-child(2):hover::before,
+.radio-page #radio-sounds .card:nth-child(3):hover::before{
+  opacity:.42!important;
+  transform:none!important;
+}
+.radio-page #radio-sounds .card:nth-child(1):hover::after,
+.radio-page #radio-sounds .card:nth-child(2):hover::after,
+.radio-page #radio-sounds .card:nth-child(3):hover::after{
+  background:rgba(244,241,235,.62)!important;
+}
+.radio-page #radio-sounds .card:nth-child(1):hover h3,
+.radio-page #radio-sounds .card:nth-child(1):hover p,
+.radio-page #radio-sounds .card:nth-child(1):hover small,
+.radio-page #radio-sounds .card:nth-child(2):hover h3,
+.radio-page #radio-sounds .card:nth-child(2):hover p,
+.radio-page #radio-sounds .card:nth-child(2):hover small,
+.radio-page #radio-sounds .card:nth-child(3):hover h3,
+.radio-page #radio-sounds .card:nth-child(3):hover p,
+.radio-page #radio-sounds .card:nth-child(3):hover small{
+  color:inherit!important;
+}
