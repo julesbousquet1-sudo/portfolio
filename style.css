@@ -416,3 +416,24 @@
   background-position:center top!important;
   background-size:cover!important;
 }
+
+
+/* Les quatre blocs audio doivent avoir exactement la même hauteur */
+.radio-page #radio-sounds .card:nth-child(1),
+.radio-page #radio-sounds .card:nth-child(2),
+.radio-page #radio-sounds .card:nth-child(3),
+.radio-page #radio-sounds .card:nth-child(4){
+  height:280px!important;
+  min-height:280px!important;
+  max-height:280px!important;
+}
+@media(max-width:800px){
+  .radio-page #radio-sounds .card:nth-child(1),
+  .radio-page #radio-sounds .card:nth-child(2),
+  .radio-page #radio-sounds .card:nth-child(3),
+  .radio-page #radio-sounds .card:nth-child(4){
+    height:280px!important;
+    min-height:280px!important;
+    max-height:280px!important;
+  }
+}
