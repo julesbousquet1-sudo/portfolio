@@ -1148,3 +1148,9 @@
     padding:6px!important;
   }
 }
+
+
+/* Relever légèrement l'image de fond du bloc Apparition à l'écran */
+.video-page #video-apparition .video-single-grid .card::before{
+  background-position:center 35%!important;
+}
