@@ -20,9 +20,9 @@ radio:[
 video:[
 {cat:"Motion design",title:"Séquence 01",desc:"Motion design sur Adobe After Effects.",media:"Vidéo",date:"MP4",url:"Séquence 01.mp4",video:true},
 {cat:"Apparition à l’écran",title:"Apparition à l’écran",desc:"Apparition à l’écran avec une vidéo tournée chez TrashTalk.",media:"Vidéo",date:"MP4",url:"received_3287063024788488.mp4",video:true},
-{cat:"Vidéo",title:"Vidéo YouTube — 1",desc:"Vidéo YouTube.",media:"YouTube",date:"Vidéo",url:"https://youtu.be/hv1vBZK2mQU?si=yh_ZlQWFNtijvx-a",youtube:true},
-{cat:"Vidéo",title:"Vidéo YouTube — 2",desc:"Vidéo YouTube.",media:"YouTube",date:"Vidéo",url:"https://youtu.be/4VHMBrfpQUc?si=0qI-iTrc8zvhcI9z",youtube:true},
-{cat:"Vidéo",title:"Vidéo Instagram — 1",desc:"Vidéo Instagram.",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/DCFQv_vObfv/?utm_source=ig_web_copy_link&stkn=",instagram:true}
+{cat:"Reportage",title:"Reportage au sein de la Tony Parker Academy",desc:"Interviews, prise d’images et voix off",media:"YouTube",date:"Vidéo",url:"https://youtu.be/hv1vBZK2mQU?si=yh_ZlQWFNtijvx-a",youtube:true},
+{cat:"Reportage",title:"Immersion dans un déplacement du BCTM",desc:"Montage d’un reportage immersif avec l’équipe féminine de La Tronche.",media:"YouTube",date:"Vidéo",url:"https://youtu.be/4VHMBrfpQUc?si=0qI-iTrc8zvhcI9z",youtube:true},
+{cat:"Reportage",title:"Reportage au planétarium de Saint-Etienne",desc:"Interviews, prise d’images et voix off",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/DCFQv_vObfv/?utm_source=ig_web_copy_link&stkn=",instagram:true}
 ]};
 
 function youtubeEmbed(url){
