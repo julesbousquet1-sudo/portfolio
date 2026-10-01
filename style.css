@@ -262,3 +262,34 @@
 }
 #radio-sounds .card:nth-child(4):hover::before{opacity:.82!important;transform:none!important}
 #radio-sounds .card:nth-child(4):hover::after{background:linear-gradient(90deg,rgba(17,17,17,.78),rgba(17,17,17,.52) 55%,rgba(17,17,17,.24))!important}
+
+
+/* Correction visuelle du logo Plaquages Invisibles : l'image passe au-dessus du fond */
+#radio-sounds .card:nth-child(4){
+  background:rgba(244,241,235,.42)!important;
+}
+#radio-sounds .card:nth-child(4)::before{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  background-image:url("Logo%20podcast%20Plaquages%20Invisibles.png")!important;
+  background-size:contain!important;
+  background-repeat:no-repeat!important;
+  background-position:center!important;
+  opacity:.88!important;
+  transform:none!important;
+  z-index:0!important;
+}
+#radio-sounds .card:nth-child(4)::after{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  background:linear-gradient(90deg,rgba(244,241,235,.58),rgba(244,241,235,.30) 55%,rgba(244,241,235,.08))!important;
+  z-index:1!important;
+}
+#radio-sounds .card:nth-child(4)>div{
+  position:relative!important;
+  z-index:2!important;
+}
+#radio-sounds .card:nth-child(4):hover::before{opacity:.94!important;transform:none!important}
+#radio-sounds .card:nth-child(4):hover::after{background:linear-gradient(90deg,rgba(17,17,17,.62),rgba(17,17,17,.36) 55%,rgba(17,17,17,.10))!important}
