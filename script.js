@@ -65,6 +65,9 @@ function cards(a,id){
       if(e.target.closest('audio,video,iframe'))return;
       if(!e.target.closest('a') && c.dataset.url && c.dataset.url!=="#")window.open(c.dataset.url,'_blank','noopener,noreferrer');
     });
+    c.querySelectorAll('audio').forEach(audio=>{
+      audio.addEventListener('click',e=>e.stopPropagation());
+    });
     c.addEventListener('keydown',e=>{
       if((e.key==='Enter'||e.key===' ')&&!e.target.closest('audio,video')){
         e.preventDefault();
