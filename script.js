@@ -11,11 +11,11 @@ radio:[
 {cat:"Reportage sonore",title:"Le COVID dans le médico-social",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage - jules - .mp3",audio:true},
 {cat:"Reportage sonore",title:"Élections américaines 2024 - réactions",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage 2 - jules - .mp3",audio:true},
 {cat:"Reportage sonore",title:"La folie des fêtes de Noël à Bron",desc:"Reportage radio.",media:"Radio",date:"Son",url:"reportage 3 - jules - .mp3",audio:true},
-{cat:"Podcast",title:"Bande annonce du podcast : <i>Plaquages Invisibles</i>",desc:"Projet de podcast personnel et original",media:"Podcast",date:"Son",url:"bande annonce plaquage invisible - podcast --.mp3",audio:true,podcast:true},
+{cat:"Podcast",title:"Bande annonce du podcast : <i>Plaquages Invisibles</i>",desc:"Projet de podcast personnel et original.",media:"Podcast",date:"Son",url:"bande annonce plaquage invisible - podcast --.mp3",audio:true,podcast:true},
 {cat:"Émission radio",title:"<i>Addictions</i>",desc:"Replay d’une émission en présence de chroniqueurs, journalistes et invités. Présentation et gestion de la régie.",media:"YouTube",date:"Émission",url:"https://youtu.be/2jX_oNe7Wrg?si=qvb_IXDqAULRJNU3",youtube:true},
 {cat:"Émission radio",title:"<i>Vers l’infini et au delà</i>",desc:"Replay d’une émission en présence de chroniqueurs, journalistes et invités. Présentation et gestion de la régie.",media:"YouTube",date:"Émission",url:"https://youtu.be/JYpOF9M8z8s",youtube:true},
 {cat:"Narration",title:"Pourquoi écrire ?",desc:"Essayez, l’espace d’un instant, de vous laisser guider et emporter.",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/C3abCABN8ZX/?utm_source=ig_web_copy_link&stkn",instagram:true},
-{cat:"Narration",title:"Soyons le changement",desc:"Plongez-vous dans ces deux minutes de constatation, d’émotion et surtout d’espoir",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/C3D0Skwi_Zv/?utm_source=ig_web_copy_link&stkn=",instagram:true}
+{cat:"Narration",title:"Soyons le changement",desc:"Plongez-vous dans ces deux minutes de constatation, d’émotion et surtout d’espoir.",media:"Instagram",date:"Reel",url:"https://www.instagram.com/reel/C3D0Skwi_Zv/?utm_source=ig_web_copy_link&stkn=",instagram:true}
 ],
 video:[
 {cat:"Vidéo",title:"Séquence 01",desc:"Vidéo.",media:"Vidéo",date:"MP4",url:"Séquence 01.mp4",video:true},
